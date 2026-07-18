@@ -370,22 +370,6 @@ Example:
 ![Digital Twin Impact](docs/results/Figure8_Digital_Twin_Impact.png)
 
 ---
-## Digital Twin Simulation Results
-
-The digital twin module evaluated hypothetical clinical changes and their impact on predicted CKD risk.
-
-Example:
-
-| Scenario | Risk Change |
-|---|---|
-| Baseline Patient State | 89.67% |
-| Renal Function Improvement | 56.67% |
-| Combined Intervention | 48.00% |
-
-The simulation demonstrates how RenalTwin AI can estimate potential changes in CKD risk under different clinical scenarios.
-
----
-
 ## Model Evaluation Curves
 
 Performance evaluation included:
