@@ -317,6 +317,61 @@ Model performance is evaluated using:
 - 5-Fold Cross Validation
 
 ---
+---
+
+# Results
+
+## Model Performance Comparison
+
+Three CKD prediction models were evaluated using different clinical feature sets.
+
+| Model | Purpose | Best Algorithm | Accuracy | Precision | Recall | F1-score | ROC-AUC |
+|---|---|---|---|---|---|---|---|
+| Model A | Early Screening | Random Forest | 83.45% | 52.58% | 50.00% | 0.5126 | 0.8178 |
+| Model B | Clinical Screening | Random Forest | 88.91% | 71.76% | 59.80% | 0.6524 | 0.8782 |
+| Model C | Diagnostic Support | Random Forest | 99.83% | 99.03% | 100% | 0.9951 | 1.000 |
+
+---
+
+## Feature Importance Analysis
+
+The Random Forest model identified the most influential predictors for CKD risk:
+
+1. Serum Creatinine
+2. Age
+3. Systolic Blood Pressure
+4. Hemoglobin
+5. BMI
+6. Systemic Immune-Inflammation Index (SII)
+
+![Feature Importance](docs/figures/Figure3_SHAP_Explainability_Workflow.png)
+
+---
+
+## Digital Twin Simulation Results
+
+The digital twin module evaluated hypothetical clinical changes and their impact on predicted CKD risk.
+
+Example:
+
+| Scenario | Risk Change |
+|---|---|
+| Baseline Patient State | 89.67% |
+| Renal Function Improvement | 56.67% |
+| Combined Intervention | 48.00% |
+
+The simulation demonstrates how RenalTwin AI can estimate potential changes in CKD risk under different clinical scenarios.
+
+---
+
+## Model Evaluation Curves
+
+Performance evaluation included:
+
+- ROC curve analysis
+- Precision-recall analysis
+- Calibration assessment
+- Threshold optimization
 
 # Dataset
 
