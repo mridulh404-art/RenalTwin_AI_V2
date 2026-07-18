@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+
+message: "If you use this software, please cite it as below."
+
+title: "RenalTwin AI V2: Explainable AI-Driven Digital Twin Framework for Personalized Chronic Kidney Disease Risk Prediction, Simulation, and Clinical Decision Support"
+
+authors:
+  - name: "Mridul Hasan Sagor"
+  - name: "Mishiba Islam"
+
+version: "2.0.0"
+
+date-released: "2026-07-19"
+
+repository-code: "https://github.com/mridulh404-art/RenalTwin_AI_V2"
+
+abstract: >
+  RenalTwin AI V2 is an Explainable AI-driven Digital Twin framework
+  for personalized Chronic Kidney Disease risk prediction, simulation,
+  and clinical decision support using NHANES 2017-2020 data.
+
+keywords:
+  - Chronic Kidney Disease
+  - Explainable Artificial Intelligence
+  - Digital Twin
+  - Machine Learning
+  - SHAP
+  - Clinical Decision Support
