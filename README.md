@@ -506,7 +506,42 @@ Variables include:
 ## Reporting
 
 - ReportLab
+# Application Workflow
 
+## 1. Patient Registration
+
+Users can register a new patient profile with demographic and clinical information.
+
+![Patient Registration](docs/figures/Figure5_Clinical_Dashboard_Interface.png)
+
+
+## 2. CKD Risk Prediction
+
+The AI engine processes patient features and provides:
+
+- CKD probability
+- Risk category
+- Model explanation
+
+
+## 3. Explainable Prediction
+
+SHAP analysis identifies important factors contributing to the prediction.
+
+
+## 4. Digital Twin Simulation
+
+Users can modify clinical parameters and evaluate possible risk changes.
+
+
+## 5. Clinical Report Generation
+
+The system generates automated PDF reports containing:
+
+- Patient summary
+- Prediction results
+- Explainability analysis
+- Clinical recommendations
 ---
 
 # Installation
