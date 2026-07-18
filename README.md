@@ -368,7 +368,31 @@ Example:
 | Combined Intervention | 48.00% |
 
 ![Digital Twin Impact](docs/results/Figure8_Digital_Twin_Impact.png)
+---
 
+# Research Tables
+
+## Table 1: Baseline Characteristics
+
+The study population consisted of 9,254 participants from NHANES 2017–2020.
+
+[View Table 1: Baseline Characteristics](docs/tables/Table1_Baseline_Characteristics.md)
+
+
+## Table 2: Machine Learning Model Performance
+
+Performance comparison of Model A, Model B, and Model C using different clinical feature sets.
+
+[View Table 2: Model Performance](docs/tables/Table2_Model_Performance.md)
+
+
+## Table 3: Feature Importance Analysis
+
+Top predictors contributing to CKD risk classification using the Random Forest model.
+
+[View Table 3: Feature Importance](docs/tables/Table3_Feature_Importance.md)
+
+---
 ---
 ## Model Evaluation Curves
 
