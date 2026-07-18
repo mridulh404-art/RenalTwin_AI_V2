@@ -1,0 +1,1 @@
+from components.sidebar import render_sidebar

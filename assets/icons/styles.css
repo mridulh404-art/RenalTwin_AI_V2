@@ -1,0 +1,72 @@
+/* ==========================================================
+   RenalTwin AI V2 Theme
+========================================================== */
+
+.main > div {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+/* Main title */
+h1 {
+    color: #114B8C;
+    font-weight: 700;
+}
+
+/* Section titles */
+h2, h3 {
+    color: #1E3A5F;
+    margin-top: 1rem;
+}
+
+/* Metric cards */
+[data-testid="metric-container"] {
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #E5E7EB;
+    padding: 18px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+/* Buttons */
+.stButton > button {
+    width: 100%;
+    border-radius: 10px;
+    height: 48px;
+    font-weight: 600;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background: #F7FAFC;
+}
+
+/* Dataframes */
+[data-testid="stDataFrame"] {
+    border-radius: 12px;
+}
+
+/* Expanders */
+.streamlit-expanderHeader {
+    font-weight: 600;
+}
+
+/* Success */
+.stSuccess {
+    border-radius: 10px;
+}
+
+/* Warning */
+.stWarning {
+    border-radius: 10px;
+}
+
+/* Error */
+.stError {
+    border-radius: 10px;
+}
+
+/* Info */
+.stInfo {
+    border-radius: 10px;
+}

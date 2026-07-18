@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+.venv/
+
+# Temporary files
+temp/
+
+# Generated outputs
+outputs/
+
+# Streamlit
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data privacy
+patients/
+data/raw/
+data/external/
+data/patients/
+data/*.csv
+
+# Allow processed research dataset
+!data/processed/
+!data/processed/*.csv
