@@ -320,6 +320,9 @@ Model performance is evaluated using:
 ---
 
 # Results
+---
+
+# Results
 
 ## Model Performance Comparison
 
@@ -331,23 +334,42 @@ Three CKD prediction models were evaluated using different clinical feature sets
 | Model B | Clinical Screening | Random Forest | 88.91% | 71.76% | 59.80% | 0.6524 | 0.8782 |
 | Model C | Diagnostic Support | Random Forest | 99.83% | 99.03% | 100% | 0.9951 | 1.000 |
 
+![Model Performance Comparison](docs/results/Figure6_Model_Performance.png)
+
+
 ---
 
 ## Feature Importance Analysis
 
-The Random Forest model identified the most influential predictors for CKD risk:
+The model identified major CKD prediction contributors:
 
-1. Serum Creatinine
-2. Age
-3. Systolic Blood Pressure
-4. Hemoglobin
-5. BMI
-6. Systemic Immune-Inflammation Index (SII)
+- Serum Creatinine
+- Age
+- Systolic Blood Pressure
+- Hemoglobin
+- BMI
+- Inflammatory biomarkers
 
-![Feature Importance](docs/figures/Figure3_SHAP_Explainability_Workflow.png)
+![Feature Importance](docs/results/Figure7_Feature_Importance.png)
+
 
 ---
 
+## Digital Twin Simulation Results
+
+The digital twin module evaluated potential clinical interventions by simulating changes in patient parameters.
+
+Example:
+
+| Scenario | Simulated Risk |
+|---|---|
+| Baseline State | 89.67% |
+| Renal Function Improvement | 56.67% |
+| Combined Intervention | 48.00% |
+
+![Digital Twin Impact](docs/results/Figure8_Digital_Twin_Impact.png)
+
+---
 ## Digital Twin Simulation Results
 
 The digital twin module evaluated hypothetical clinical changes and their impact on predicted CKD risk.
