@@ -321,7 +321,35 @@ Model performance is evaluated using:
 # Dataset
 
 Dataset:
+---
 
+# System Visualization
+
+## Figure 1: RenalTwin AI System Architecture
+
+![RenalTwin AI System Architecture](docs/figures/Figure1_System_Architecture.png)
+
+
+## Figure 2: Machine Learning Pipeline
+
+![Machine Learning Pipeline](docs/figures/Figure2_Machine_Learning_Pipeline.png)
+
+
+## Figure 3: SHAP Explainability Workflow
+
+![SHAP Explainability Workflow](docs/figures/Figure3_SHAP_Explainability_Workflow.png)
+
+
+## Figure 4: Digital Twin Simulation Workflow
+
+![Digital Twin Simulation Workflow](docs/figures/Figure4_Digital_Twin_Simulation_Workflow.png)
+
+
+## Figure 5: Clinical Dashboard Interface
+
+![Clinical Dashboard Interface](docs/figures/Figure5_Clinical_Dashboard_Interface.png)
+
+---
 ## National Health and Nutrition Examination Survey (NHANES) 2017–2020
 
 Variables include:
