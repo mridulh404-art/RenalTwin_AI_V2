@@ -478,34 +478,6 @@ Variables include:
 - CKD stage
 
 ---
-
-# Technologies
-
-## Programming
-
-- Python
-
-## Machine Learning
-
-- Scikit-Learn
-- XGBoost
-- LightGBM
-
-## Explainability
-
-- SHAP
-
-## Application
-
-- Streamlit
-
-## Visualization
-
-- Plotly
-
-## Reporting
-
-- ReportLab
 # Application Workflow
 
 ## 1. Patient Registration
@@ -542,6 +514,33 @@ The system generates automated PDF reports containing:
 - Prediction results
 - Explainability analysis
 - Clinical recommendations
+# Technologies
+
+## Programming
+
+- Python
+
+## Machine Learning
+
+- Scikit-Learn
+- XGBoost
+- LightGBM
+
+## Explainability
+
+- SHAP
+
+## Application
+
+- Streamlit
+
+## Visualization
+
+- Plotly
+
+## Reporting
+
+- ReportLab
 ---
 
 # Installation
