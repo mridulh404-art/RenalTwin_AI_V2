@@ -374,23 +374,35 @@ Example:
 
 ## Table 1: Baseline Characteristics
 
-The study population consisted of 9,254 participants from NHANES 2017–2020.
-
-[View Table 1: Baseline Characteristics](docs/tables/Table1_Baseline_Characteristics.md)
+| Variable | Non-CKD (n=7951) | CKD (n=1303) |
+|---|---:|---:|
+| Age (years), mean ± SD | 31.58 ± 24.24 | 51.16 ± 26.53 |
+| BMI | 26.32 ± 8.15 | 27.94 ± 8.70 |
+| Systolic BP | 119.44 ± 18.32 | 132.93 ± 25.65 |
+| Diastolic BP | 68.14 ± 15.65 | 69.27 ± 16.36 |
+| Creatinine | 0.81 ± 0.19 | 1.16 ± 0.93 |
+| eGFR | 104.39 ± 21.62 | 77.09 ± 32.80 |
 
 
 ## Table 2: Machine Learning Model Performance
 
-Performance comparison of Model A, Model B, and Model C using different clinical feature sets.
-
-[View Table 2: Model Performance](docs/tables/Table2_Model_Performance.md)
+| Model | Purpose | Accuracy | F1-score | ROC-AUC |
+|---|---|---:|---:|---:|
+| Model A | Early Screening | 0.8345 | 0.5126 | 0.8178 |
+| Model B | Clinical Screening | 0.8891 | 0.6524 | 0.8782 |
+| Model C | Diagnostic Support | 0.9983 | 0.9951 | 1.000 |
 
 
 ## Table 3: Feature Importance Analysis
 
-Top predictors contributing to CKD risk classification using the Random Forest model.
-
-[View Table 3: Feature Importance](docs/tables/Table3_Feature_Importance.md)
+| Rank | Feature | Importance |
+|---|---|---:|
+| 1 | Serum Creatinine | 0.1868 |
+| 2 | Age | 0.1244 |
+| 3 | Systolic Blood Pressure | 0.0970 |
+| 4 | Hemoglobin | 0.0631 |
+| 5 | BMI | 0.0628 |
+| 6 | SII | 0.0625 |
 
 ---
 ---
